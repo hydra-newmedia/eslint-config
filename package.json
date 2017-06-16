@@ -1,0 +1,22 @@
+{
+  "name": "@hydrant/eslint-config",
+  "version": "1.0.0",
+  "description": "Our eslint config",
+  "main": "base.js",
+  "scripts": {
+    "test": "eslint .",
+    "precommit": "npm test"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Filip Weiss <weiss@hydra-newmedia.com>",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "./base.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "husky": "^0.13.4"
+  }
+}
