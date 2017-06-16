@@ -1,0 +1,12 @@
+image: node:7
+
+test:
+  stage: test
+  tags:
+    - shared
+  cache:
+    paths:
+      - "node_modules"
+  script:
+    - npm install
+    - npm test

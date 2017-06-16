@@ -7,6 +7,10 @@
     "test": "eslint .",
     "precommit": "npm test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/hydra-newmedia/c2g/eslint-config.git"
+  },
   "keywords": [
     "eslint"
   ],
