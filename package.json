@@ -20,7 +20,7 @@
     "extends": "./base.js"
   },
   "devDependencies": {
-    "eslint": "^4.0.0",
+    "eslint": "^4.1.1",
     "husky": "^0.13.4"
   }
 }
