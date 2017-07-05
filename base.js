@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   extends: 'eslint:recommended',
   // async await support
