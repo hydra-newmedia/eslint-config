@@ -28,4 +28,4 @@ Add these lines to your `package.json`:
 
 ## License
 
-ISC
+MIT
