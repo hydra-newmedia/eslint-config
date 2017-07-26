@@ -33,6 +33,12 @@ module.exports = {
     'no-eval': 2,
     // tidy spacings
     'no-spaced-func': 2,
+    'space-before-function-paren': [1, {
+      anonymous: 'never',
+      named: 'never',
+      asyncArrow: 'always',
+    }],
+    'keyword-spacing': 1,
     'comma-spacing': 1,
     'array-bracket-spacing': [
       1,
@@ -45,6 +51,7 @@ module.exports = {
     'object-curly-spacing': [1, 'always'],
     'no-trailing-spaces': 1,
     'no-multi-spaces': 1,
+    'no-multiple-empty-lines': [2, { max: 2, maxEOF: 1, maxBOF: 0 }],
   },
 };
 
