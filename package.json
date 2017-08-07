@@ -18,5 +18,9 @@
   "devDependencies": {
     "eslint": "^4.1.1",
     "husky": "^0.13.4"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-vue": "^2.1.0"
   }
 }
