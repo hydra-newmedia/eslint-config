@@ -21,6 +21,6 @@
   },
   "optionalDependencies": {
     "eslint-plugin-html": "^3.1.1",
-    "eslint-plugin-vue": "^2.1.0"
+    "eslint-plugin-vue": "^3.10.0"
   }
 }
