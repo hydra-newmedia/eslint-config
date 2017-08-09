@@ -20,7 +20,7 @@ module.exports = {
     'comma-dangle': [1, 'always-multiline'], // require trailing comma
     'global-require': 0,
     'arrow-parens': 0,
-    'object-shorthand': 1,
+    'object-shorthand': [1, 'always'],
     'no-path-concat': 1,
     'no-console': 0,
     'no-extra-bind': 1,
