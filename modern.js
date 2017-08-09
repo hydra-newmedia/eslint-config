@@ -17,7 +17,6 @@ module.exports = {
     'complexity': 1,
     'max-nested-callbacks': 1,
     'no-duplicate-imports': 2,
-    'object-shorthand': [1, 'always'],
     'prefer-arrow-callback': 1,
     'prefer-spread': 1,
     'no-useless-concat': 1,
