@@ -27,7 +27,6 @@ module.exports = {
     'no-implied-eval': 2,
     'max-len': [1, 100],
     'space-infix-ops': [1, { int32Hint: true }],
-    'linebreak-style': [2, 'unix'],
     'eol-last': 2,
     'brace-style': 2,
     'camelcase': 1,
