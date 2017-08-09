@@ -5,7 +5,6 @@ module.exports = {
   rules: {
     'no-var': 2, // alawys use const or let
     'no-await-in-loop': 1,
-    'no-extra-bind': 1,
     'radix': 2,
     'no-with': 2,
     'no-useless-return': 1,
