@@ -49,6 +49,8 @@ module.exports = {
       },
     ],
     'object-curly-spacing': [1, 'always'],
+    'object-curly-newline': [1, { 'consistent': true }],
+    'object-property-newline': [1, { allowMultiplePropertiesPerLine: true }],
     'no-trailing-spaces': 1,
     'no-multi-spaces': 1,
     'no-multiple-empty-lines': [2, { max: 2, maxEOF: 1, maxBOF: 0 }],
