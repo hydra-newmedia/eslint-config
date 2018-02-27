@@ -11,6 +11,10 @@
     "eslint"
   ],
   "author": "Filip Weiss <weiss@hydra-newmedia.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.hydra-newmedia.cloud/wombats/eslint-config.git"
+  },
   "license": "MIT",
   "eslintConfig": {
     "extends": "./base.js"
