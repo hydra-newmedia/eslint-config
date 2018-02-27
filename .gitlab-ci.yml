@@ -1,12 +1,28 @@
 image: node:7
 
+stages:
+  - test
+  - publish
+
+cache:
+  paths:
+    - node_modules
+    - package-lock.json
+
 test:
   stage: test
   tags:
     - shared
-  cache:
-    paths:
-      - "node_modules"
   script:
     - npm install
     - npm test
+
+publish:
+  stage: publish
+  only:
+    - tags
+    - /^v\d+\.\d+\.\d+-?.*$/
+  script:
+    - npm install
+    - npm publish
+
