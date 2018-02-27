@@ -21,4 +21,9 @@ module.exports = {
     'no-useless-concat': 1,
     'template-curly-spacing': 1,
   },
+  'parserOptions': {
+    'ecmaFeatures': {
+      'experimentalObjectRestSpread': true,
+    },
+  },
 };
