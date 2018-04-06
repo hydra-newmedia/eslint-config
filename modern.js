@@ -20,6 +20,7 @@ module.exports = {
     'prefer-spread': 1,
     'no-useless-concat': 1,
     'template-curly-spacing': 1,
+    'curly': [1, 'multi-line'],
   },
   parserOptions: {
     ecmaFeatures: {
