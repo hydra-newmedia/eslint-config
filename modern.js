@@ -23,8 +23,6 @@ module.exports = {
     'curly': [1, 'multi-line'],
   },
   parserOptions: {
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-    },
+    ecmaVersion: 2018,
   },
 };
