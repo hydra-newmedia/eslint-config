@@ -11,6 +11,7 @@ module.exports = {
     'no-sequences': 2,
     'no-return-await': 1,
     'arrow-spacing': 2,
+    'arrow-parens': [1, 'as-needed'],
     'no-const-assign': 2,
     'prefer-rest-params': 2,
     'complexity': 1,
