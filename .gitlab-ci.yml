@@ -18,11 +18,11 @@ test:
     - npm test
 
 publish:
-  stage: publish
   only:
-    - tags
     - /^v\d+\.\d+\.\d+-?.*$/
+  except:
+    - branches
   script:
     - npm install
+    - npm set //registry.npmjs.org/:_authToken="$NPM_PUBLISH_TOKEN";
     - npm publish
-
