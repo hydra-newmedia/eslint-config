@@ -25,5 +25,6 @@ publish:
     - branches
   script:
     - npm install
+    - npm set @hydrant:registry "https://registry.npmjs.org";
     - npm set //registry.npmjs.org/:_authToken="$NPM_PUBLISH_TOKEN";
     - npm publish
