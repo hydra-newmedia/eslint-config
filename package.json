@@ -1,6 +1,6 @@
 {
   "name": "@hydrant/eslint-config",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "Our eslint config",
   "main": "base.js",
   "scripts": {
