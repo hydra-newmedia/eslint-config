@@ -18,6 +18,7 @@ test:
     - npm test
 
 publish:
+  stage: publish
   only:
     - /^v\d+\.\d+\.\d+-?.*$/
   except:
