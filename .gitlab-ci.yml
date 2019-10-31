@@ -8,6 +8,7 @@ include:
     file: /v1/static/publish.yml
 
 test:
+  image: node:latest
   stage: test
   tags:
     - shared
