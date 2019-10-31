@@ -1,13 +1,11 @@
-image: node:latest
-
 stages:
   - test
-  - publish
+  - build
+  - deploy
 
-cache:
-  paths:
-    - node_modules
-    - package-lock.json
+include:
+  - project: hydra/dev/ci-templates
+    file: /v1/static/publish.yml
 
 test:
   stage: test
@@ -17,14 +15,7 @@ test:
     - npm install
     - npm test
 
-publish:
-  stage: publish
-  only:
-    - /^v\d+\.\d+\.\d+-?.*$/
-  except:
-    - branches
-  script:
-    - npm install
-    - npm set @hydrant:registry "https://registry.npmjs.org";
-    - npm set //registry.npmjs.org/:_authToken="$NPM_PUBLISH_TOKEN";
-    - npm publish
+build publish:
+  variables:
+    GIT_STRATEGY: none
+  script: echo job skipped
