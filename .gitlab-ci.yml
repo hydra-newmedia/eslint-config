@@ -16,7 +16,6 @@ test:
     - npm install
     - npm test
 
-build publish:
-  variables:
-    GIT_STRATEGY: none
-  script: echo job skipped
+publish:
+  before_script:
+    - echo "npm ci skipped"
