@@ -24,10 +24,10 @@
   },
   "devDependencies": {
     "eslint": "^8.1.0",
-    "husky": "^4.0.0"
+    "husky": "^7.0.4"
   },
   "optionalDependencies": {
-    "eslint-plugin-html": "^3.1.1",
-    "eslint-plugin-vue": "^3.10.0"
+    "eslint-plugin-html": ">=3.1.1",
+    "eslint-plugin-vue": ">=3.10.0"
   }
 }
