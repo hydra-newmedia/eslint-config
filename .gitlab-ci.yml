@@ -5,7 +5,7 @@ stages:
 
 include:
   - project: hydra/dev/ci-templates
-    file: /v1/static/publish.yml
+    file: /v1/static/publish-npm.yml
 
 test:
   image: node:latest
@@ -15,7 +15,3 @@ test:
   script:
     - npm install
     - npm test
-
-publish:
-  before_script:
-    - echo "npm ci skipped"
